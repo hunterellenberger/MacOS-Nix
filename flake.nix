@@ -22,6 +22,7 @@
           pkgs.ghostty-bin
           pkgs.git
           pkgs.rustup
+          pkgs.btop
         ];
 
       homebrew = {
