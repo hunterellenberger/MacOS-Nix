@@ -8,7 +8,7 @@ The following will detail all required steps to get my Mac setup with all requir
 
 The first required component of the setup is Nix. This can be aquired by running 
 ```zsh
-$ curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install | sh
+curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install | sh
 ``` 
 as of writing. If anything has been changed you can review the installation steps at [Nix Download](https://nixos.org/download/).
 
