@@ -79,6 +79,7 @@
             "/System/Applications/Mail.app"
             "${pkgs.ghostty-bin}/Applications/ghostty.app"
           ];
+          show-recents = false;
         };
         
         controlcenter = {
@@ -104,6 +105,7 @@
        NSGlobalDomain = {
         "com.apple.swipescrolldirection" = false;
         AppleInterfaceStyle = "Dark";
+        AppleIconAppearanceTheme = "RegularDark";
         NSDocumentSaveNewDocumentsToCloud = false;
        };
 
