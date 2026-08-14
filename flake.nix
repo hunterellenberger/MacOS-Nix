@@ -24,7 +24,7 @@
           pkgs.rustup
           pkgs.btop
           pkgs.discord
-          pkgs.texliveMinimal
+          pkgs.tdf
         ];
 
       homebrew = {
